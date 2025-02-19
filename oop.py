@@ -45,7 +45,7 @@ class Employee:
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amount)
-        return self.pay
+        return "current payment of {} {} is {}".format(self.first,self.last,self.pay)
 
 
 emp_1 = Employee('Corey', 'Schafer', 50000)
@@ -55,4 +55,6 @@ print(Employee.fullname(emp_1))
 print(emp_1.fullname())
 print(emp_1.apply_raise())
 
+
 # class variables are shared among all instances of a class
+# test
