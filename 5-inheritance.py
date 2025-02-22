@@ -31,7 +31,7 @@ dev_2 = Developer("Test", "Employee", 60000)
 print(dev_1.email)
 print(dev_2.email)
 
-method resolution order (MRO)
+# method resolution order (MRO)
 print('MRO')
 print(help(Developer))
 
