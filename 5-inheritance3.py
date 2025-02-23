@@ -23,7 +23,7 @@ class Developer(Employee):
 
     def __init__(self, first, last, pay, programming_language):
         super().__init__(first,last,pay)
-        # it's ok to write code below aswell
+        # it's ok to write code below too
         # Employee.__init__(self, first, last, pay)
         self.programming_language = programming_language
 
